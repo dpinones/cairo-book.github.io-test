@@ -22,8 +22,6 @@ concurrency:
 
 env:
   CARGO_TERM_COLOR: always
-  # Update the language picker in index.hbs to link new languages.
-  LANGUAGES: fr es
 
 jobs:
   publish:
@@ -47,7 +45,7 @@ jobs:
 
       - name: Build all translations
         run: |
-          for po_lang in ${{ env.LANGUAGES }}; do
+          for po_lang in $(cat ./LANGUAGES); do
               echo "::group::Building $po_lang translation"
               MDBOOK_BOOK__LANGUAGE=$po_lang \
               mdbook build -d book/$po_lang
