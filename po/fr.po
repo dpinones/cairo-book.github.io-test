@@ -13,7 +13,7 @@ msgstr ""
 
 #: src/SUMMARY.md:1
 msgid "The Cairo Programming Language"
-msgstr "Le langage de programmation Cairo"
+msgstr "Le langage de programmation Cairo AHAHAH"
 
 #: src/SUMMARY.md:4
 msgid "Foreword"
