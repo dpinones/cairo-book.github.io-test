@@ -1,3 +1,5 @@
+LANG=$1
+
 # Rebuild english version, updating the `messages.pot` file where all chunks of texts
 # to be translated are extracted.
 MDBOOK_OUTPUT='{"xgettext": {"pot-file": "messages.pot"}}' \
@@ -12,3 +14,14 @@ do
     msgmerge --update po/"$po_lang".po po/messages.pot
     MDBOOK_BOOK__LANGUAGE="$po_lang" mdbook build -d book/"$po_lang"
 done
+
+# Serving the language, if any.
+if [ $# -eq 0 ]
+then
+    echo ""
+    echo "No input language, stop after build."
+    exit 0
+fi
+
+MDBOOK_BOOK__LANGUAGE="$LANG" mdbook serve -d book/"$LANG"
+

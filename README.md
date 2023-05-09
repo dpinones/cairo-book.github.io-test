@@ -43,12 +43,10 @@ All the Markdown files **MUST** be edited in english. To work locally in english
 
 This book is targetting international audience, and aims at being gradually translated in several languages.
 
-Translations can be found in `.po` files where the translators only have to translate chunk of texts called `msg`. A message is always identified by a `msgid`, which **MUST NOT** be changed. Only the `msgstr`.
-
 **All files in the `src` directory MUST be written in english**. This ensures that all the translation files can be
 auto-generated and updated by translators.
 
-When english text is changed or if you want to work on a translation, those are the step to update the translated content:
+To work with translations, those are the steps to update the translated content:
 
    - Run `bash translations_build.sh` to ensure the translations messaged are up to date with the english version.
    
