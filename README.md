@@ -47,12 +47,10 @@ This book is targetting international audience, and aims at being gradually tran
 auto-generated and updated by translators.
 
 To work with translations, those are the steps to update the translated content:
-
-   - Run `bash translations_build.sh` to ensure the translations messaged are up to date with the english version.
    
-   - Run a local server for the language you want to edit: `MDBOOK_BOOK__LANGUAGE=es mdbook serve -d book/es` for instance.
+   - Run a local server for the language you want to edit: `./translations.sh es` for instance. If no language is provided, the script will only extract translations from english.
 
-   - Open the translation file you are interested in `po/fr.po` for instance. You can also use editors like [poedit](https://poedit.net/) to help you on this task.
+   - Open the translation file you are interested in `po/es.po` for instance. You can also use editors like [poedit](https://poedit.net/) to help you on this task.
 
    - When you are done, you should only have changes into the `po/xx.po` file. Commit them and open a PR.
    The PR must stars with `i18n` to let the maintainers know that the PR is only changing translation.

@@ -23,5 +23,6 @@ then
     exit 0
 fi
 
+# Serve the input language, if available.
 MDBOOK_BOOK__LANGUAGE="$LANG" mdbook serve -d book/"$LANG"
 
