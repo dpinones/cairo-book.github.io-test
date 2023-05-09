@@ -13,67 +13,67 @@ msgstr ""
 
 #: src/SUMMARY.md:1
 msgid "The Cairo Programming Language"
-msgstr ""
+msgstr "Le langage de programmation Cairo"
 
 #: src/SUMMARY.md:4
 msgid "Foreword"
-msgstr ""
+msgstr "Avant-propos"
 
 #: src/SUMMARY.md:5
 msgid "Introduction"
-msgstr ""
+msgstr "Introduction"
 
 #: src/SUMMARY.md:7
 msgid "Getting Started"
-msgstr ""
+msgstr "Bien démarrer"
 
 #: src/SUMMARY.md:11
 msgid "Installation"
-msgstr ""
+msgstr "Installation"
 
 #: src/SUMMARY.md:12
 msgid "Hello, World!"
-msgstr ""
+msgstr "Hello, World!"
 
 #: src/SUMMARY.md:13
 msgid "Hello, Scarb!"
-msgstr ""
+msgstr "Hello, Scarb!"
 
 #: src/SUMMARY.md:15
 msgid "Common Programming Concepts"
-msgstr ""
+msgstr "Concepts généraux de programmation"
 
 #: src/SUMMARY.md:18
 msgid "Variables and Mutability"
-msgstr ""
+msgstr "Variables et mutabilité"
 
 #: src/SUMMARY.md:19
 msgid "Data Types"
-msgstr ""
+msgstr "Types de données"
 
 #: src/SUMMARY.md:20
 msgid "Functions"
-msgstr ""
+msgstr "Fonctions"
 
 #: src/SUMMARY.md:21
 msgid "Comments"
-msgstr ""
+msgstr "Commentaires"
 
 #: src/SUMMARY.md:22
 msgid "Control Flow"
-msgstr ""
+msgstr "Structures de contrôle"
 
 #: src/SUMMARY.md:23
 msgid "Common Collections"
-msgstr ""
+msgstr "Les collections communes"
 
 #: src/SUMMARY.md:25
 msgid "Understanding Ownership"
-msgstr ""
+msgstr "Comprendre le concept de possession (ownership)"
 
 #: src/SUMMARY.md:28
 msgid "What is Ownership?"
-msgstr ""
+msgstr "Qu'est-ce que la possession ?"
 
 #: src/SUMMARY.md:29
 msgid "References and Snapshots"
